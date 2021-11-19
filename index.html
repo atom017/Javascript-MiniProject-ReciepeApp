@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Reciepe App</title>
+</head>
+<body onload="getRandomMeal()">
+    <div id="overlay"></div>
+    <div id="container">
+        <div class="wrapper">
+            <header>
+                <h1>Reciepe App</h1>
+                
+            </header>
+            <div class="search-container" >
+                <input type="text" placeholder="search by ingredients" id="search-box">
+                <button type="submit" id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div>
+                <a href="#" id="random-btn">Get Random Meal</a>
+            </div>
+            
+            <!--Show Search Result-->
+            <section class="reciepe-result">
+                <h2 id="search-title">Random Meal</h2>
+                <div class="meals">
+                    
+                    <!-- <div class="meal-item">
+                        <div class="img-container">
+                            <img src="meal.jpg" alt="">
+                        </div>
+                        <div class="meal-name">
+                            <h4>Chicken Curry</h4>
+                            <a href="#" class="reciepe-btn">Get Reciepe</a>
+                            <a href="#" class="ingredient-btn">Ingredients</a>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+        </div>
+
+        <!--Reciepe Detail Popup Section-->
+        <section class="reciepe-popup">
+            <button id="close-btn">
+                <i class="fa fa-times"></i>
+            </button>
+            <!--Meal Content-->
+            <div class="reciepe-content">
+                <!-- <p class="reciepe-category">category name</p>
+                <div class="reciepe-instruct">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quibusdam?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum earum fugiat aspernatur.</p>
+                </div>
+                <div class = "reciepe-img-container">
+                    <img src = "meal.jpg" alt = "">
+                  </div>
+                  <div class = "recipe-link">
+                    <a href = "#" target = "_blank">Watch Video</a>
+                  </div>  -->
+            </div>
+        
+        </section>
+        <footer>Created by Antonio(Khaing Hsu Thwe) &copy;2021</footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
