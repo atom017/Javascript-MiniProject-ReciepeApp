@@ -47,6 +47,7 @@ This application/site was created as a custom project to practise javascript.
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 - [Create A Food Recipe App Using Vanilla JavaScript For Beginners](https://www.youtube.com/watch?v=x8EY0BlhPGk)
+- [The meal DB to consume API](https://www.themealdb.com/api.php)
 
 
 ## Contact
