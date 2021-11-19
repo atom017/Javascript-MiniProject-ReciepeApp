@@ -122,6 +122,7 @@ header h1{
     border-radius: 1rem;
     box-shadow: 0 4px 20px -10px rgba(3, 3, 3, 0.7);
     background-color: #fff;
+    margin-bottom: 2rem;
 }
 
 .img-container{
