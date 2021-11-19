@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Interior Consultant</h1>
+<h1 align="center">Reciepe App</h1>
 
 <div align="center">
    Javascript Mini Project consuming public API
