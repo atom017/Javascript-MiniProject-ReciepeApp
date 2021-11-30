@@ -20,6 +20,7 @@ closeBtn.addEventListener('click', () => {
 function getMealList(){
     
     let searchInputTxt = document.getElementById('search-box').value.trim();
+    document.getElementById('search-box').value = "";
     title.innerText = 'Search Result: '+searchInputTxt;
     fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchInputTxt}`)
     .then(response => response.json())
